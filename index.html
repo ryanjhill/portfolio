@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+	<title>Ryan's Portfolio</title>
+	<style type="text/css">
+		h1 {
+			font-family: 'Roboto', sans-serif;
+			font-weight: 500;
+			color: white;
+		}
+		h2 {
+			font-family: "Roboto", sans-serif;
+			font-weight: 300;
+			color: white;
+		}
+		h3 {
+			font-family: "Roboto", sans-serif;
+			font-weight: 300;
+			color: darkgrey;
+		}
+		h4 {
+			font-family: "Roboto", sans-serif;
+			font-weight: 300;
+			color: white;
+			visibility: hidden;
+			text-align: center;
+		}
+		a:hover + h4 {
+			text-align: center;
+			display: block;
+			visibility: visible;
+		}
+		.tab_link {
+			text-align: center;
+			display: block;
+			visibility: visible;
+		}
+		i {
+			color: white;
+			padding-left: 18px;
+			padding-right: 18px;
+		}
+		a {
+			text-decoration: none;
+		}
+		a:link {
+			color: darkgrey;
+		}
+		a:visited {
+			color: darkgrey;
+		}
+		a:hover {
+			color: #00aeef;
+		}
+		a:active {
+			color: darkgrey;
+		}
+		.icon {
+			float: left;
+			position: block;
+			overflow: auto;
+		}
+		p {
+			font-family: "Roboto", sans-serif;
+			font-weight: 300;
+		}
+		body {
+			padding: 0px;
+			margin: 0px;
+		}
+		#top {
+			background-color:#00aeef;
+			margin: 0px;
+			padding: 15px;
+		}
+		#bottom {
+			margin:0px;
+			padding:0px;
+			background-color:#eeeeee;
+		}
+		.card {
+			border-left: solid;
+			border-left-width: 10px;
+			border-left-color: #00aeef;
+			background-color: white;
+			padding: 5px;
+			margin-top: 5%;
+			margin-bottom: 5%;
+			padding-right: 5%;
+			height: auto;
+			overflow: hidden;
+		}
+		.prof_pic {
+			width: 180px;
+			float: left;
+			margin-right: 5%;
+		}
+		.card_prev {
+			width: 140px;
+			height: 140px;
+			float: left;
+			margin-right: 2%;
+			padding: 20px;
+		}
+	</style>
+</head>
+<body style="width:100%;height:100%;">
+
+	<!-- top section -->
+	<div id="top">
+		<!-- navbar -->
+		<div style="float:right;">
+			<div class="icon">
+				<a href="mailto:hello@ryanjhill.com"><i class="fa fa-envelope fa-2x"></i></a>
+				<h4>Email me</h4>
+			</div>
+			<div class="icon">
+				<a href="resume.pdf" target="_blank">
+					<i class="fa fa-file fa-2x"></i>
+				</a>
+				<h4>Resume</h4>
+			</div>
+			<div class="icon">
+				<a href="https://fb.com/RyanJosephHill"><i class="fa fa-facebook-official fa-2x"></i></a>
+				<h4>Facebook</h4>
+			</div>
+			<div class="icon">
+				<a href="https://twitter.com/RyanJosephHill"><i class="fa fa-twitter fa-2x"></i></a>
+				<h4>Twitter</h4>
+			</div>
+			<div class="icon">
+				<a href="https://medium.com/@RyanJosephHill"><i class="fa fa-medium fa-2x"></i></a>
+				<h4>Medium</h4>
+			</div>
+			<div class="icon">
+				<a href="https://www.flickr.com/photos/ryanjosephhill/"><i class="fa fa-flickr fa-2x"></i></a>
+				<h4>Flickr</h4>
+			</div>
+			<div class="icon">
+				<a href="https://github.com/ryanjhill"><i class="fa fa-github fa-2x"></i></a>
+				<h4>Github</h4>
+			</div>
+		</div>
+
+		<!-- center info section -->
+		<div style="margin:15% auto 5%;width:50%;">
+			<%= image_tag("profilepic.png", :class => "prof_pic") %>
+			<div style="display:inline;">
+				<h1 style="padding-top:20px;">I'm Ryan Hill.</h1>
+				<h2>I do UX design, software engineering, startups, photography, and other fun things.</h2>
+			</div>
+		</div>
+	</div>
+
+	<!-- bottom sectiom -->
+	<div id="bottom">
+		<div style="margin:0% auto;width:60%;padding-top:2%;padding-bottom:5%;">
+			<h3 style="text-align:center;">Some stuff I've recently been doing...</h3>
+			<div class="card">
+				<%= image_tag("sdhacks_logo.png", :class => "card_prev") %>
+				<div style="display:inline;">
+					<h3><a href="https://sdhacks.io">SD Hacks 2015 &#8594;</a></h3>
+					<p>I led a year long effort to create UC San Diego's first intercollegiate hackathon. We raised nearly $300k from 28 corporate sponsors to bring together 1200 student developers from across the nation.</p>
+				</div>
+			</div>
+			<div class="card">
+				<%= image_tag("scoutr.png", :class => "card_prev") %>
+				<h3>Scoutr</h3>
+				<p>I'm working on a startup! Soon the website will be launched and the product will be live... until then, stay tuned.</p>
+			</div>
+			<div class="card">
+				<%= image_tag("saltystarfish.png", :class => "card_prev") %>
+				<h3><a href="https://medium.com/usability-and-information-architecture-ucsd/salty-starfish-did-wha-f0e7112d4f47">COGS 187A: Usability and Information Architecture &#8594;</a></h3>
+				<p>I've been working with a team to create an app designed to help users find people they can try going to new places with, so you'll never have to adventure alone. Check out our design process live on Medium.</p>
+			</div>
+			<div class="card">
+				<img class="card_prev" src="http://startupsandiego.co/wp-content/uploads/2015/05/San-Diego-Startup-Week-Rocket.png">
+				<h3><a href="http://startupsandiego.co/">Startup SD &#8594;</h3></a>
+				<p>I've been working with Startup SD to help promote the start up community in San Diego. It's quite a thriving ecosystem, it just needs a little push. If you want to get involved, check out the link!</p>
+			</div>
+
+			<!-- <p style="text-align:center;">Designed by</p> -->
+			<%= image_tag("signature.png", :style=> "width:80px;display:block;margin:auto;") %>
+
+		</div>
+	</div>
+</body>
+</html>
