@@ -1,0 +1,130 @@
+  @font-face {
+    font-family: Norwester; src: url('fonts/norwester.otf');
+  }
+
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: white;
+    font-size: 4rem;
+  }
+  h2 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 2.6rem;
+  }
+  h3 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    color: darkgrey;
+    font-size: 2.1rem;
+  }
+  h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size:1.4rem;
+    color: white;
+    visibility: hidden;
+    text-align: center;
+  }
+  a:hover + h4 {
+    text-align: center;
+    display: block;
+    visibility: visible;
+  }
+  .tab_link {
+    text-align: center;
+    display: block;
+    visibility: visible;
+  }
+  i {
+    color: white;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:link {
+    color: darkgrey;
+  }
+  a:visited {
+    color: darkgrey;
+  }
+  a:hover {
+    color: #00aeef;
+  }
+  a:active {
+    color: darkgrey;
+  }
+  .icon {
+    float: left;
+    position: block;
+    overflow: auto;
+  }
+  p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: grey;
+  }
+  body {
+    padding: 0px;
+    margin: 0px;
+  }
+  html {
+    font-size: 10px;
+  }
+  #top {
+    background-color:#00aeef;
+    margin: 0px;
+    padding: 15px;
+  }
+  #bottom {
+    margin:0px;
+    padding:0px;
+    background-color:#eeeeee;
+  }
+  /*.card {
+    background-color: white;
+    margin: 20px 2%;
+    min-height: 300px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 15px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+  }
+  .card img {
+    height: 200px;
+    float: left;
+    display: block;
+    overflow: hidden;
+
+  }*/
+  .card {
+    margin-bottom: 25px;
+  }
+  .card:hover {
+    position: relative; top: -5px;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+  }
+  .card-title {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600 !important;
+    color: white;
+  }
+  /*.card_prev {
+    width: 140px;
+    height: 140px;
+    float: left;
+    margin-right: 2%;
+    padding: 20px;
+    display: block;
+  }*/
+  .prof_pic {
+    max-width: 180px;
+  }
