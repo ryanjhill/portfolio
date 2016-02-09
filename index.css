@@ -2,9 +2,6 @@
     font-family: Norwester; src: url('fonts/norwester.otf');
   }
 
-  html{font-size:130%;}
-  @media(min-width:60em){html{font-size: 90%}}
-
   h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
@@ -22,19 +19,6 @@
     font-weight: 600;
     color: darkgrey;
     font-size: 2.1rem;
-  }
-  h4 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size:1.4rem;
-    color: white;
-    visibility: hidden;
-    text-align: center;
-  }
-  a:hover + h4 {
-    text-align: center;
-    display: block;
-    visibility: visible;
   }
   .tab_link {
     text-align: center;
@@ -74,9 +58,12 @@
     padding:0px;
     background-color:#eeeeee;
   }
+  .social {
+    margin-right: 5px;
+  }
   .card {
     margin-bottom: 40px;
-    min-height: 375px;
+    min-height: 420px;
   }
   .card:hover {
     position: relative; top: -15px;
@@ -92,9 +79,27 @@
   .card-image img {
 
   }
-  .card-link a,a:hover,a:link,a:visited,a:active {
-    text-decoration: none;
+  a:-webkit-any-link {
+    text-decoration: inherit;
+  }
+  .card p,
+  a:hover.card,
+  .card a:hover {
+    text-decoration: none !important;
+    color: #333 !important;
+  }
+  .card-link {
     color: #333;
+  }
+  h2 a {
+    color: white;
+    text-decoration: underline !important;
+  }
+  h2 a:hover {
+    color: white;
+  }
+  h2 a:active {
+    color: white;
   }
   .bot-nav-bar {
     background-color: #E0E0E0;
@@ -107,5 +112,5 @@
     border-style: solid;*/
   }
   .prof_pic {
-    max-width: 180px;
+    min-width: 150px;
   }

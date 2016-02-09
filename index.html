@@ -13,58 +13,37 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
 	<link rel="stylesheet" type="text/css" href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Rajdhani:400,500,600' rel='stylesheet' type='text/css'>
-	<link href="index.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Rajdhani:600,500,400,700|Montserrat' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,200,200italic,300italic,400italic,600,600italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href="index.css" rel="stylesheet">
+
 </head>
 
 <body style="background-color:#eeeeee;">
 
 	<!-- top section -->
 	<div id="top">
-		<!-- navbar -->
-		<div class="container" style="padding-right:0px;margin-right:0px;">
-			<div class="row" style="float:right;display:block;">
-				<div class="icon">
-					<a href="mailto:hello@ryanjhill.com"><i class="fa fa-envelope fa-2x"></i></a>
-					<h4>Email me</h4>
-				</div>
-				<div class="icon">
-					<a href="resume.pdf" target="_blank">
-						<i class="fa fa-file fa-2x"></i>
-					</a>
-					<h4>Resume</h4>
-				</div>
-				<div class="icon">
-					<a href="https://fb.com/RyanJosephHill"><i class="fa fa-facebook-official fa-2x"></i></a>
-					<h4>Facebook</h4>
-				</div>
-				<div class="icon">
-					<a href="https://twitter.com/RyanJosephHill"><i class="fa fa-twitter fa-2x"></i></a>
-					<h4>Twitter</h4>
-				</div>
-				<div class="icon">
-					<a href="https://medium.com/@RyanJosephHill"><i class="fa fa-medium fa-2x"></i></a>
-					<h4>Medium</h4>
-				</div>
-				<div class="icon">
-					<a href="https://www.flickr.com/photos/ryanjosephhill/"><i class="fa fa-flickr fa-2x"></i></a>
-					<h4>Flickr</h4>
-				</div>
-				<div class="icon">
-					<a href="https://github.com/ryanjhill"><i class="fa fa-github fa-2x"></i></a>
-					<h4>Github</h4>
-				</div>
-			</div>
-		</div>
-
 		<!-- center info section -->
-		<div class="container">
+		<div class="container" style="padding-top:5%;">
 			<div class="row">
-				<img class="prof_pic col-sm-3 col-sm-offset-2 col-xs-offset-1" src="pictures/profilepic.png">
-				<div class="col-sm-5 col-xs-offset-1">
+				<div class="col-sm-4 container">
+					<div class="row" style="margin-bottom:30px;">
+						<img class="prof_pic col-xs-6 col-xs-offset-3" src="pictures/profilepic.png">
+					</div>
+
+					<div class="row" style="margin-bottom:30px;">
+						<a href="https://fb.com/RyanJosephHill"><i class="col-xs-2 col-xs-offset-1 fa fa-facebook-official fa-2x"></i></a>
+						<a href="https://twitter.com/RyanJosephHill"><i class="col-xs-2 fa fa-twitter fa-2x"></i></a>
+						<a href="https://medium.com/@RyanJosephHill"><i class="col-xs-2 fa fa-medium fa-2x"></i></a>
+						<a href="https://www.flickr.com/photos/ryanjosephhill/"><i class="col-xs-2 fa fa-flickr fa-2x"></i></a>
+						<a href="https://github.com/ryanjhill"><i class="col-xs-2 fa fa-github fa-2x"></i></a>
+					</div>
+				</div>
+
+				<div class="col-sm-8">
 					<h1 style="margin-top:0px;">I'm Ryan Hill.</h1>
 					<h2>I do UX design, software engineering, startups, photography, and other fun things.</h2>
+					<h2>Feel free to <a href="mailto:hello@ryanjhill.com" target="_blank">contact me</a> and check out <a href="resume.pdf" target="_blank">my resume.</a></h2>
 				</div>
 			</div>
 		</div>
@@ -85,7 +64,7 @@
 	              <span class="card-title">Ethnography of Collaborative Workspaces</span>
 	            </div>
 	            <div class="card-content">
-	              <p style="color:#333;">I conducted a 3 month study on collaborative workspaces; what makes people want to work together, and how do we optimize these interactions?</p>
+	              <p>I conducted a 3 month study on collaborative workspaces; what makes people want to work together, and how do we optimize these interactions?</p>
 	            </div>
 	            <!-- <div class="card-action">
 								<p>This is a section for tags</p>
@@ -95,7 +74,7 @@
 			</div>
 
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-				<a href="cogs198.html">
+				<a style="card-link" href="sdhacks.html">
 					<div class="card">
 						<div class="card-image">
 							<img src="pictures/previews/SDHacks_city.png">
@@ -110,81 +89,93 @@
 			</div>
 
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-				<div class="card">
-					<div class="card-image">
-						<img src="pictures/previews/resumedesk.png">
-						<span class="card-title">Resume Design Process</span>
+				<a style="card-link" href="resumedesign.html">
+					<div class="card">
+						<div class="card-image">
+							<img src="pictures/previews/resumedesk.png">
+							<span class="card-title">Resume Design Process</span>
+						</div>
+						<div class="card-content">
+							<p>I am a very simple card. I am good at containing small bits of information.
+							I am convenient because I require little markup to use effectively.</p>
+						</div>
 					</div>
-					<div class="card-content">
-						<p>I am a very simple card. I am good at containing small bits of information.
-						I am convenient because I require little markup to use effectively.</p>
-					</div>
-				</div>
+				</a>
 			</div>
 
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-				<div class="card">
-					<div class="card-image">
-						<img src="pictures/previews/onecup.png">
-						<span class="card-title">OneCup</span>
+				<a style="card-link" href="onecup.html">
+					<div class="card">
+						<div class="card-image">
+							<img src="pictures/previews/onecup.png">
+							<span class="card-title">OneCup</span>
+						</div>
+						<div class="card-content">
+							<p>I am a very simple card. I am good at containing small bits of information.
+							I am convenient because I require little markup to use effectively.</p>
+						</div>
 					</div>
-					<div class="card-content">
-						<p>I am a very simple card. I am good at containing small bits of information.
-						I am convenient because I require little markup to use effectively.</p>
-					</div>
-				</div>
+				</a>
 			</div>
 
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-				<div class="card">
-					<div class="card-image">
-						<img src="pictures/previews/autobackup.png">
-						<span class="card-title">AutoBackup Script</span>
+				<a style="card-link" href="autobackup.html">
+					<div class="card">
+						<div class="card-image">
+							<img src="pictures/previews/autobackup.png">
+							<span class="card-title">AutoBackup Script</span>
+						</div>
+						<div class="card-content">
+							<p>I am a very simple card. I am good at containing small bits of information.
+							I am convenient because I require little markup to use effectively.</p>
+						</div>
 					</div>
-					<div class="card-content">
-						<p>I am a very simple card. I am good at containing small bits of information.
-						I am convenient because I require little markup to use effectively.</p>
-					</div>
-				</div>
+				</a>
 			</div>
 
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-				<div class="card">
-					<div class="card-image">
-						<img src="pictures/previews/tritonnews.png">
-						<span class="card-title">The Triton Redesign</span>
+				<a style="card-link" href="tritonnews.html">
+					<div class="card">
+						<div class="card-image">
+							<img src="pictures/previews/tritonnews.png">
+							<span class="card-title">The Triton Redesign</span>
+						</div>
+						<div class="card-content">
+							<p>I am a very simple card. I am good at containing small bits of information.
+							I am convenient because I require little markup to use effectively.</p>
+						</div>
 					</div>
-					<div class="card-content">
-						<p>I am a very simple card. I am good at containing small bits of information.
-						I am convenient because I require little markup to use effectively.</p>
-					</div>
-				</div>
+				</a>
 			</div>
 
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-				<div class="card">
-					<div class="card-image">
-						<img src="pictures/previews/tescsite.png">
-						<span class="card-title">TESC Rebranding</span>
+				<a style="card-link" href="tesc.html">
+					<div class="card">
+						<div class="card-image">
+							<img src="pictures/previews/tescsite.png">
+							<span class="card-title">TESC Rebranding</span>
+						</div>
+						<div class="card-content">
+							<p>I am a very simple card. I am good at containing small bits of information.
+							I am convenient because I require little markup to use effectively.</p>
+						</div>
 					</div>
-					<div class="card-content">
-						<p>I am a very simple card. I am good at containing small bits of information.
-						I am convenient because I require little markup to use effectively.</p>
-					</div>
-				</div>
+				</a>
 			</div>
 
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-				<div class="card">
-					<div class="card-image">
-						<img src="pictures/previews/banner_ex.png">
-						<span class="card-title">Banners and Signage</span>
+				<a style="card-link" href="banners.html">
+					<div class="card">
+						<div class="card-image">
+							<img src="pictures/previews/banner_ex.png">
+							<span class="card-title">Banners and Signage</span>
+						</div>
+						<div class="card-content">
+							<p>I am a very simple card. I am good at containing small bits of information.
+							I am convenient because I require little markup to use effectively.</p>
+						</div>
 					</div>
-					<div class="card-content">
-						<p>I am a very simple card. I am good at containing small bits of information.
-						I am convenient because I require little markup to use effectively.</p>
-					</div>
-				</div>
+				</a>
 			</div>
 
 		</div> <!-- End of Card section -->
