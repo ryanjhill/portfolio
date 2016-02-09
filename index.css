@@ -46,9 +46,10 @@
     margin: 0px;
   }
   html {
-    font-size: 14px !important;
+    font-size: 12px !important;
   }
-  @media(min-width:70em){html{font-size: 10px !important;}}
+  @media(min-width:576px){html{font-size: 10px !important;}}
+  @media(min-width:576px){p{font-size: 2rem !important;}}
   #top {
     background-color:#00aeef;
     margin: 0px;
@@ -64,7 +65,7 @@
   }
   .card {
     margin-bottom: 40px;
-    min-height: 420px;
+    /*min-height: 420px;*/
   }
   .card:hover {
     position: relative; top: -15px;
@@ -77,8 +78,8 @@
     font-weight: 600 !important;
     color: white;
   }
-  .card-image img {
-
+  .card-content {
+    min-height: 150px;
   }
   a:-webkit-any-link {
     text-decoration: inherit;
@@ -113,5 +114,6 @@
     border-style: solid;*/
   }
   .prof_pic {
-    min-width: 150px;
+    min-width: 140px;
+    max-width: 200px;
   }
