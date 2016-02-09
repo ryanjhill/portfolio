@@ -2,6 +2,9 @@
     font-family: Norwester; src: url('fonts/norwester.otf');
   }
 
+  html{font-size:130%;}
+  @media(min-width:60em){html{font-size: 90%}}
+
   h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
@@ -72,10 +75,11 @@
     background-color:#eeeeee;
   }
   .card {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    min-height: 375px;
   }
   .card:hover {
-    position: relative; top: -5px;
+    position: relative; top: -15px;
     transition: 0.5s ease;
     -webkit-transition: 0.5s ease;
     -moz-transition: 0.5s ease;
