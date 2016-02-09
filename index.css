@@ -46,8 +46,9 @@
     margin: 0px;
   }
   html {
-    font-size: 10px;
+    font-size: 14px !important;
   }
+  @media(min-width:60em){html{font-size: 10px !important;}}
   #top {
     background-color:#00aeef;
     margin: 0px;
