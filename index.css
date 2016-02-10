@@ -51,18 +51,18 @@
   }
   body {
     min-height: 100%;
-    /*margin-bottom: 0 0 8rem;*/
     width: 100%;
+    margin: 0px;
+    padding: 0px;
   }
   html {
     font-size: 10px !important;
     min-height: 100%;
     width: 100%;
+    margin: 0px;
+    padding: 0px;
     position: relative;
   }
-  /*@media(min-width:576px){
-    html{font-size: 10px !important;}
-  }*/
   #main {
     position: relative;
   }
@@ -81,6 +81,7 @@
     right: 0;
     width: 100%;
     clear: both;
+    overflow-x: hidden;
     background-color: #E0E0E0;
   }
   .content {
