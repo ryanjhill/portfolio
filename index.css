@@ -84,7 +84,9 @@
     background-color: #E0E0E0;
   }
   .content {
-    width:70%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 800px;
     padding-top:2%;
     padding-bottom:5%;
   }
@@ -123,6 +125,7 @@
   }
   .card-content {
     height: 18vw;
+    min-height: 100px;
     max-height: 200px;
     overflow: hidden;
   }
