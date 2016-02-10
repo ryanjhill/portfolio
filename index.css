@@ -165,8 +165,15 @@
     text-align: center;
     padding: 30px;
   }
+  .bot-nav-bar h3 {
+    display: inline;
+    color: #333;
+  }
   .bot-nav-but:hover h3 {
     font-weight: bold !important;
+  }
+  .bot-nav-but:hover .bot-nav-bar {
+    background-color: #CCCCCC;
   }
   .prof_pic {
     min-width: 100px;
