@@ -121,7 +121,9 @@
     color: white;
   }
   .card-content {
-    min-height: 200px;
+    height: 24vmin;
+    overflow: hidden;
+    padding-bottom: 5px;
   }
   a:-webkit-any-link {
     text-decoration: inherit;
