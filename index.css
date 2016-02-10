@@ -52,10 +52,12 @@
   body {
     /*min-height: 100%;*/
     margin-bottom: 0 0 8rem;
+    width: 100%;
   }
   html {
     font-size: 12px !important;
     min-height: 100%;
+    width: 100%;
     position: relative;
   }
   @media(min-width:576px){
