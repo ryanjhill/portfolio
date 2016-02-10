@@ -76,12 +76,10 @@
   }
   #footer {
     position: absolute;
+    position: bottom;
     right: 0;
     left: 0;
-    bottom: 0;
-    height: 8rem;
-    width: 100%;
-    background-color:#E0E0E0;
+    background-color: #E0E0E0;
   }
   .content {
     width:70%;
