@@ -96,9 +96,12 @@
   .content p {
     margin-bottom: 30px;
   }
-  .social li {
-    margin: 0px auto;
-    display: inline;
+  .social {
+    margin:12px auto;
+    text-align:center;
+    min-width: 180px;;
+    max-width:250px;
+    white-space:nowrap;"
   }
   .si {
     margin: 0px auto;
@@ -125,9 +128,15 @@
   }
   .card-content {
     height: 18vw;
-    min-height: 100px;
+    min-height: 130px;
     max-height: 200px;
     overflow: hidden;
+  }
+  @media only screen and (max-width: 544px) {
+      .card-content {
+        height: auto;
+        overflow: auto;
+      }
   }
   a:-webkit-any-link {
     text-decoration: inherit;
