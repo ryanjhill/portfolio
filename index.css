@@ -39,7 +39,7 @@
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 400;
     font-size: 1.8rem;
-    line-height: 2.6rem;
+    line-height: 150%;
     color: #333;
   }
   li {
@@ -106,6 +106,7 @@
   }
   .card {
     margin-bottom: 40px;
+    padding-bottom: 10px;
     /*min-height: 420px;*/
   }
   .card:hover {
@@ -121,9 +122,9 @@
     color: white;
   }
   .card-content {
-    height: 24vmin;
+    height: 18vw;
+    max-height: 200px;
     overflow: hidden;
-    padding-bottom: 5px;
   }
   a:-webkit-any-link {
     text-decoration: inherit;
