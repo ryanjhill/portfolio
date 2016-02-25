@@ -160,10 +160,13 @@
     color: white;
   }
   .card-content {
-    height: 18vw;
+    height: 13vh;
     min-height: 130px;
     max-height: 200px;
     overflow: hidden;
+  }
+  .card-action {
+    height: 35px;
   }
   @media only screen and (max-width: 544px) {
       .card-content {
@@ -182,6 +185,21 @@
   }
   .card-link {
     color: #333;
+  }
+  .tags {
+    color:#00aeef !important;
+    font-weight: 600 !important;
+    font-size: 1.2rem !important;
+    position: relative;
+    top: -16px;
+  }
+  .tags-lg {
+
+  }
+  .blockquote {
+    border-left: 10px solid #ccc;
+    padding-left: 15px;
+
   }
   h2 a {
     color: white;
