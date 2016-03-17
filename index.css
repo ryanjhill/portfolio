@@ -38,7 +38,7 @@
   p {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     line-height: 150%;
     color: #333;
   }
@@ -160,7 +160,7 @@
     color: white;
   }
   .card-content {
-    height: 13vh;
+    height: 16vh;
     min-height: 130px;
     max-height: 200px;
     overflow: hidden;
@@ -231,4 +231,6 @@
     max-width: 30%;
     margin:0px auto 10px;
     display: block;
+    border: 3px solid white;
+    border-radius:50%;
   }
