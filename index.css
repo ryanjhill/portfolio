@@ -11,7 +11,7 @@ body {
 
 }
 .left {
-  max-width: 18%;
+  width: 18%;
   padding-right: 2%;
   float: left;
 }
@@ -21,7 +21,7 @@ body {
   }
 }
 .center {
-  max-width: 70%;
+  width: 80%;
 }
 @media (max-width: 768px) {
   .center {
