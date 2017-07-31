@@ -25,7 +25,7 @@ body {
 }
 @media (max-width: 768px) {
   .center {
-    max-width: 100%;
+    width: 100%;
   }
 }
 .right {
