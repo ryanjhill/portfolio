@@ -1,5 +1,6 @@
 body {
-  color: #444;
+  /*color: #444;*/
+  background-color: #ffffff;
 }
 
 .main {
@@ -68,4 +69,15 @@ h2 {
 
 .signature {
   width:70px;
+}
+
+.link--body {
+  border-bottom: 5px solid #b4e7f8;
+  text-decoration: none;
+  color: #000000;
+}
+.link--body:hover {
+  -webkit-transition: background-color .4s; /* Safari */
+  transition: background-color .4s;
+  background-color: #b4e7f8;
 }
