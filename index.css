@@ -28,9 +28,6 @@ body {
     width: 80%;
     display: inline-block;
   }
-  .signature--footer {
-    display: none;
-  }
 }
 
 @media (max-width: 768px) {
@@ -41,13 +38,17 @@ body {
     width: 100%;
     display: inline-block;
   }
-  .signature--footer {
-    width: 70px;
-  }
 }
 
 .right {
   /*max-width: 10%;*/
+}
+
+.navbar {
+  margin-right: auto;
+  margin-left: auto;
+  display: inline-block;
+  /*justify-content: center;*/
 }
 
 h2 {
@@ -59,17 +60,51 @@ h2 {
 
 }
 
+h3 {
+  /*font-family: 'Input Mono Extra Light', sans-serif;*/
+  /*font-family: 'Gill Sans Light', sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.0;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+ul {
+  margin: none;
+  float: right;
+}
+li {
+  display: inline-block;
+  margin-right: 20px;
+  line-height:1.2;
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: 0px;
+}
+
 .divider {
   border-radius: 4px;
   height: 4px;
   max-width: 100%;
-  background-color: #4B4B4B;
+  /*background-color: #4B4B4B;*/
+  background-color: #000000;
   /*margin-bottom: 9px;*/
   margin-bottom: .5rem;
 }
 
-.signature {
-  width:70px;
+.signature--header {
+  width: 80px;
+  float: left;
+  margin-right: 30px;
+  margin-top: 16px;
+  margin-left: 10px;
+}
+
+.signature--footer {
+  width: 70px;
+  float: right;
 }
 
 .link--body {
